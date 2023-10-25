@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+
+<suite name="Childsupport suite" verbose="1" >
+
+
+ 
+  <test name="priority testing" >
+    <classes>
+       <class name="testing.Priority_Learning_TC_05" />
+    </classes>
+  </test>
+  
+    <test name="group testing" >
+	<groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+	
+    <classes>
+		 <class name="testing.Test_suite" />
+       <class name="testing.Groups_Learning_TC_6" />
+    </classes>
+  </test>
+  
+
+  
+  
+</suite>

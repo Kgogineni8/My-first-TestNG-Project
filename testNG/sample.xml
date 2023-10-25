@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Structured_Test_Suite_Prepration" parallel="tests" thread-count="2">
+   <test name="Google">
+      <classes>
+         <class name="testScripts.GoogleTest" />
+      </classes>
+   </test>
+   
+   <test name="W3School">
+      <classes>
+         <class name="testScripts.W3School_Test" />
+      </classes>
+   </test>
+   
+   <test name="Stackoverflow">
+      <classes>
+         <class name="testScripts.StackOverFlow_Test" />
+      </classes>
+   </test>
+</suite>

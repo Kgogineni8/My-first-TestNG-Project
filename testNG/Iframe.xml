@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="iframelearningSuite" verbose="1" >
+
+<parameter name="url" value="https://the-internet.herokuapp.com/"></parameter>	
+
+
+
+<test name="iframe validation" >
+<parameter name="title" value="The Internet"></parameter>	  
+<classes>
+<class name="testing.Iframe_learning" />
+</classes>
+</test>
+
+
+</suite>

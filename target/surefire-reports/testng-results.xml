@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T22:57:14 IST" name="Surefire suite" finished-at="2023-10-17T22:57:26 IST" duration-ms="11781">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T22:57:14 IST" name="Surefire test" finished-at="2023-10-17T22:57:26 IST" duration-ms="11781">
+      <class name="testScripts.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.GoogleTest@544d57e]" started-at="2023-10-17T22:57:14 IST" name="setUp" finished-at="2023-10-17T22:57:18 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_theLogo()[pri:0, instance:testScripts.GoogleTest@544d57e]" started-at="2023-10-17T22:57:18 IST" name="test_theLogo" finished-at="2023-10-17T22:57:18 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_theLogo -->
+        <test-method signature="test_the_SearchTextBox()[pri:0, instance:testScripts.GoogleTest@544d57e]" started-at="2023-10-17T22:57:19 IST" name="test_the_SearchTextBox" finished-at="2023-10-17T22:57:19 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_the_SearchTextBox -->
+        <test-method signature="title_url()[pri:0, instance:testScripts.GoogleTest@544d57e]" started-at="2023-10-17T22:57:19 IST" name="title_url" finished-at="2023-10-17T22:57:19 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_url -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.GoogleTest@544d57e]" started-at="2023-10-17T22:57:19 IST" name="tearDown" finished-at="2023-10-17T22:57:19 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.GoogleTest -->
+      <class name="testScripts.W3School_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.W3School_Test@53b7f657]" started-at="2023-10-17T22:57:23 IST" name="setUp" finished-at="2023-10-17T22:57:26 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_theLogo()[pri:0, instance:testScripts.W3School_Test@53b7f657]" started-at="2023-10-17T22:57:26 IST" name="test_theLogo" finished-at="2023-10-17T22:57:26 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_theLogo -->
+        <test-method signature="test_the_SearchTextBox()[pri:0, instance:testScripts.W3School_Test@53b7f657]" started-at="2023-10-17T22:57:26 IST" name="test_the_SearchTextBox" finished-at="2023-10-17T22:57:26 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_the_SearchTextBox -->
+        <test-method signature="title_url()[pri:0, instance:testScripts.W3School_Test@53b7f657]" started-at="2023-10-17T22:57:26 IST" name="title_url" finished-at="2023-10-17T22:57:26 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_url -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.W3School_Test@53b7f657]" started-at="2023-10-17T22:57:26 IST" name="tearDown" finished-at="2023-10-17T22:57:26 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.W3School_Test -->
+      <class name="testing.Test_suite">
+        <test-method is-config="true" signature="lanuch_application()[pri:0, instance:testing.Test_suite@62833051]" started-at="2023-10-17T22:57:14 IST" name="lanuch_application" finished-at="2023-10-17T22:57:14 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuch_application -->
+        <test-method is-config="true" signature="close_application()[pri:0, instance:testing.Test_suite@62833051]" started-at="2023-10-17T22:57:26 IST" name="close_application" finished-at="2023-10-17T22:57:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_application -->
+      </class> <!-- testing.Test_suite -->
+      <class name="testScripts.StackOverFlow_Test$Stack_Overflow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.StackOverFlow_Test$Stack_Overflow@55c53a33]" started-at="2023-10-17T22:57:19 IST" name="setUp" finished-at="2023-10-17T22:57:22 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Stackoverflow_logo()[pri:0, instance:testScripts.StackOverFlow_Test$Stack_Overflow@55c53a33]" started-at="2023-10-17T22:57:22 IST" name="Stackoverflow_logo" finished-at="2023-10-17T22:57:22 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stackoverflow_logo -->
+        <test-method signature="stackoverflow_subtabs()[pri:0, instance:testScripts.StackOverFlow_Test$Stack_Overflow@55c53a33]" started-at="2023-10-17T22:57:22 IST" name="stackoverflow_subtabs" finished-at="2023-10-17T22:57:23 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stackoverflow_subtabs -->
+        <test-method signature="test_Products()[pri:0, instance:testScripts.StackOverFlow_Test$Stack_Overflow@55c53a33]" started-at="2023-10-17T22:57:23 IST" name="test_Products" finished-at="2023-10-17T22:57:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.StackOverFlow_Test$Stack_Overflow@55c53a33]" started-at="2023-10-17T22:57:23 IST" name="tearDown" finished-at="2023-10-17T22:57:23 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.StackOverFlow_Test$Stack_Overflow -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

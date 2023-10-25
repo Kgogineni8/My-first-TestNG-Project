@@ -1,0 +1,1 @@
+{"uuid":"bb27a771-c268-46af-811b-581ef1020f45","name":"testing.Iframe_learning","children":["8ffd2a52-f690-4c80-a121-f3e3077447c0"],"befores":[{"name":"lanuch_application","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1697080047278,"stop":1697080053564}],"afters":[],"start":1697080047234,"stop":1697080053819}

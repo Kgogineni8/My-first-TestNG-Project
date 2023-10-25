@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Structured_Test_Suite_Prepration]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Stackoverflow(failed)">
+    <classes>
+      <class name="testScripts.StackOverFlow_Test$Stack_Overflow">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="stackoverflow_subtabs"/>
+        </methods>
+      </class> <!-- testScripts.StackOverFlow_Test$Stack_Overflow -->
+    </classes>
+  </test> <!-- Stackoverflow(failed) -->
+</suite> <!-- Failed suite [Structured_Test_Suite_Prepration] -->
