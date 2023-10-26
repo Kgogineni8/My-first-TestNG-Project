@@ -37,10 +37,9 @@
 <artifactId>poi-ooxml</artifactId>
 <version>3.11</version>
 </dependency>
-
- 
 	  
  </dependencies>
+ 
  
 <build>
         <plugins>
@@ -54,7 +53,7 @@
                <!--         <suiteXmlFile>testNG.xml</suiteXmlFile> --> <!--This is For TestNG Run-->
                        <!-- <suiteXmlFile>testNG/childsupport.xml</suiteXmlFile>-->
                        
-                     	<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
+                     	
                  
                     </suiteXmlFiles>
                 </configuration>
